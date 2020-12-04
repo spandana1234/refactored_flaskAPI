@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a98a99c-92eb-4eae-b826-e2f373ae574e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/test/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test_employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Pythonflask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app_objs.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskAPI/.idea/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main/service/employee_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/service/employee_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/test/test_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/test_employee.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" beforeDir="false" />
@@ -1094,9 +1093,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1606804943704" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1606920216222">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1607078561565">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1606920216222" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607078561565" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1607056322723">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1607056322723" />
   </component>
 </project>

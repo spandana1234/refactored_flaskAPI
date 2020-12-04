@@ -6,11 +6,13 @@ from app.main.model.employee import Employee
 def create_emp():
     emp_name = request.json['emp_name']
     email = request.json['email']
-    new_emp = Employee(emp_name, email)
+    return create_employee(emp_name, email)
 
+
+def create_employee(emp_name, email):
+    new_emp = Employee(emp_name, email)
     db.session.add(new_emp)
     db.session.commit()
-
     return new_emp
 
 
@@ -24,16 +26,18 @@ def get_emp(id):
 
 
 def update_emp(id):
-    emp = Employee.query.get(id)
+    emp_name = request.json['emp_name']
+    email = request.json['email']
+    return update_employee(id, emp_name, email)
+
+
+def update_employee(emp_id, emp_name, email):
+    emp = Employee.query.get(emp_id)
     if emp:
-        emp_name = request.json['emp_name']
-        email = request.json['email']
         emp.emp_name = emp_name
         emp.email = email
         db.session.commit()
-        return emp
-
-    return {'emp_name': 'No emp with given id'}
+    return emp if emp else {'emp_name': 'No emp with given id'}
 
 
 def delete_emp(id):
